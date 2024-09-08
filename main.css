@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+}
+.big
+{
+    background-color: rgb(226, 43, 220);
+    width: 900px;
+    height: 1500px;
+    border: 4px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content:space-around ;
+    
+    
+
+
+}
+.small1
+{
+    background-color: rgb(237, 161, 237);
+    width: 360px;
+    height: 50px;
+    position:sticky;
+    top: 0;
+     border: 2px solid black;
+  
+}
+.small
+{
+    background-color: rgb(91, 10, 89);
+    width: 360px;
+    height: 50px;
+    border: 2px solid black;
+}
+.listt{
+    
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  
+   
+   
+}
+.li
+{
+    display: inline-block;
+    margin-top: 15px;
+    width: 50px;
+}
